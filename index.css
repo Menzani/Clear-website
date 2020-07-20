@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body > div {
+	width: 1232px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-40%);
+}
+
+pre {
+	margin: 38px 25px 38px 25px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 14px;
+	margin-top: 25px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+a.button > pre {
+	display: none;
+}
+
+#bundle {
+	font-size: 16px;
+}
